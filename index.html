@@ -306,9 +306,12 @@
         </div>
 
         <button
-          type="button"
-          aria-label="Close"
-        >×</button>
+  type="button"
+  class="close-button"
+  id="closeDialog"
+  onclick="document.getElementById('entryDialog').close()"
+  aria-label="Close"
+>×</button>
       </div>
 
       <input type="hidden" id="entryType">
